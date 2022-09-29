@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Create New contact</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <hr>
+        <h1>Create New contact</h1>
+        <hr>
+
+        <form action="http://localhost:3000/contact" method="POST">
+            <div class="form-group">
+                <label for="exampleInputPassword1">ID</label>
+                <input class="form-control" name="id">
+            </div>
+
+            <div class="form-group">
+                <label for="exampleInputPassword1">Name</label>
+                <input class="form-control" name="name">
+            </div>
+
+            <div class="form-group">
+                <label for="exampleInputPassword1">Profession</label>
+                <input class="form-control" name="profession">
+            </div>
+
+            <div class="form-group">
+                <label for="exampleInputPassword1">Mobile Number</label>
+                <input class="form-control" name="mobile_number">
+            </div>
+
+            <div class="form-group">
+                <label for="exampleInputPassword1">Telephone Number</label>
+                <input type="number" class="form-control" name="telephone_number">
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
